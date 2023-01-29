@@ -1,0 +1,11 @@
+{
+  "name": "guess_my_number",
+  "version": "1.0.0",
+  "description": "A simple game in which you have to guess the number",
+  "main": "./assets/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dimitri Pisarev",
+  "license": "ISC"
+}

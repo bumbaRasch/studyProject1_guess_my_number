@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>PROJECT #1: Guess My Number!</title>
+</head>
+<body>
+    <div class="app__container">
+        <header class="header guess__header">
+            <h1 class="guess__title">Guess My Number!</h1>
+            <p class="guess__subtitle">(Between 1 and 20)</p>
+            <button class="btn btn__again">GO!</button>
+            <div class="guess__question">?</div>
+        </header>
+        <main class="main">
+            <div class="sectionLeft">
+                <input class="sectionLeft__guess guess__number" type="text"/>
+                <button class="btn btn__check">Check!</button>
+            </div>
+            <div class="sectionRight">
+                <p class="sectionRight__title">Start guessing...</p>
+                <p class="sectionRight__subtitle">💯 Score: <span class="sectionRight__score">20</span></p>
+                <p class="sectionRight__hightscore--title"> 🥇 Highscore: <span class="sectionRight__highscore">0</span>
+                </p>
+            </div>
+        </main>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
